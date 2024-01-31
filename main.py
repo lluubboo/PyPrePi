@@ -22,6 +22,12 @@ logger.info(buffer.getvalue())
 
 logger.info(data_frame.describe())
 
+# erase nan values
+data_frame = data_frame.dropna()
+
+# erase duplicates
+data_frame = data_frame.drop_duplicates()
+
 plot_utilities.plot_histograms(data_frame)
 logger.info("Histograms exported.")
 
