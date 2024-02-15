@@ -1,2 +1,2 @@
 # PyPrePi
-Python Data preprocessing pipeline
+Regression preprocessing pipeline
